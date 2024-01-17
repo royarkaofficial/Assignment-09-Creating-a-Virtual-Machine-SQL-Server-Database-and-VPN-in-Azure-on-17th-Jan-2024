@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ProductsDbConnectionString-Web.config Connection String" description="ProductsDbConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=arka1256server.database.windows.net;Initial Catalog=ProductsDb;Persist Security Info=True;User ID=arkaadmin;Password=Arka123@#$;Trust Server Certificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Phase\ 4\\Day-9\\WebAppProducts\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProductsDbConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="ProductsDbConnectionString2-Web.config Connection String" description="ProductsDbConnectionString2 Connection String used in web.config by the application to access the database." defaultValue="Data Source=arka1256server.database.windows.net;Initial Catalog=ProductsDb;Persist Security Info=True;User ID=arkaadmin;Password=Arka123@#$;Trust Server Certificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Phase\ 4\\Day-9\\WebAppProducts\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProductsDbConnectionString2']/@connectionString" />
+  </parameter>
+  <parameter name="ProductsDbConnectionString3-Web.config Connection String" description="ProductsDbConnectionString3 Connection String used in web.config by the application to access the database." defaultValue="Data Source=arka1256server.database.windows.net;Initial Catalog=ProductsDb;Persist Security Info=True;User ID=arkaadmin;Password=Arka123@#$" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Phase\ 4\\Day-9\\WebAppProducts\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProductsDbConnectionString3']/@connectionString" />
+  </parameter>
+</parameters>
